@@ -49,7 +49,9 @@ The screenshot below shows the blue arrow pointing to the header.
 Now follow the instructions all the way through the header titled "Verify the loaded sample database."
 
 Once you have followed the instructions through the end of "Verify the loaded sample database.", you have now loaded the dvdrental sample database into your local PostgreSQL database server.
-Step 4. Connecting back to the PostgreSQL server:
+
+<strong>Step 4. Connecting back to the PostgreSQL server:</strong>
+
 Relaunch PgAdmin III and click on the PostgreSQL server within the Object browser. The screenshot below shows the red arrow pointing to PostgreSQL server. Click it and enter your superuser (postgres) password.
 
 <strong>Step 5. Connecting to the DVD rental database:</strong>
