@@ -78,7 +78,7 @@ the customer name, month and year of payment, and total payment amount for each 
 /* Query 4 */
 SELECT DATE_TRUNC('month', p.payment_date) pay_month,
        c.first_name || ' ' || c.last_name AS full_name,
-       COUNT(p.amount) AS per_month,
+       COUNT(p.amount) AS pay_count_permonth,
        SUM(p.amount) AS amount
 FROM customer c
 JOIN payment p
